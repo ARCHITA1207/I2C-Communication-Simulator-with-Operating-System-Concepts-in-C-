@@ -1,6 +1,4 @@
-#include<stdio.h>
-#include "../include/logger.h"
-void log_message(const char *msg)
-{
-    printf("[LOG] %s\n",msg);
-}
+#ifndef SCHEDULER_H
+#define SCHEDULER_H
+void scheduler_run(void);
+#endif
